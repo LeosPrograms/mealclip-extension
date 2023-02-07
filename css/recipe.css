@@ -1,0 +1,281 @@
+#recipease-recipe, #recipease-recipe h1, #recipease-recipe h2, #recipease-recipe .paragraph {
+	color: #525252 !important;
+	font-family: 'Nunito', sans-serif !important;
+}
+
+
+#recipease-recipe {
+	outline: 3px dotted gray;
+	margin: auto;
+	padding: 10px;
+	margin: 4px 30px !important;
+    margin-bottom: 30px !important;
+
+	width:700px; 
+	z-index: 2147483647; 
+	position: relative; 
+	background: white; 
+	white-space: pre-wrap; 
+	word-wrap: break-word;
+	contain: content;
+    display: none;
+}
+
+#recipease-recipe .paragraph {
+	padding: 10px;
+	font-size: 14px !important;
+	padding: 10px;
+	margin:10px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+#recipease-recipe .paragraph:focus, h1:focus {
+	outline: 5px solid #bbb;
+	background-color: #f1f1f1;
+}
+
+#recipease-ingredients {
+	float:left;
+	width:40%; 
+}
+
+#recipease-instructions {
+	float:right; 
+	width: 46%;
+}
+
+#recipease-recipe h1 {
+	padding: 10px;
+	font-size: 28px !important;
+	font-weight: 600 !important;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#recipease-recipe h2 {
+	margin: 0;
+	padding: 0px 0px 20px 0px;
+	font-size: 20px !important;
+	font-weight: 400 !important;
+}
+
+#getRecipe, #getRecipe:focus {
+    border: 1px solid #7cb4ff !important;
+    outline: none !important;
+    margin: 0px !important;
+    padding: 2px 6px !important;
+    border-radius: 20px;
+    font-size: 14px !important;
+    position: relative !important;
+    width: 35px !important;
+    height: 35px !important;
+    left: -2.5px !important;
+    top: -3px !important;
+ 	cursor: pointer !important;
+ 	background: url(https://www.sparklelaundryservices.com/assets/restaurant.png) !important;
+ 	background-size: 25px 25px !important;
+ 	background-repeat: no-repeat !important;
+    background-position-x: 4px !important;
+    background-position-y: 3px !important;
+    transition-property: transform !important;
+    transition-duration: 0.7s;
+    /*transition: rotate 0.7s, border 300ms ease-in 0s,color 300ms ease-in 0s;*/
+}
+
+.recipease-all *, .recipease-all *::after, .recipease-all *::before {
+    box-sizing: border-box !important;
+}
+
+.recipease-all *. .recipease-all *::after, .recipease-all *::before {
+     box-sizing: border-box !important; 
+}
+
+/*#getRecipe:hover {
+    border: 1px solid #caf0ff !important;
+    background-position-y: 2px;
+    background-position-x: 3px;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition: border 200ms ease-in 0s,color 200ms ease-in 1s;
+}*/
+
+#recipease-minimize, #recipease-minimize:focus {
+	display: none;
+	padding: 0 !important;
+    margin: 0 !important;
+    float: right !important;
+    background: #7db4ff;
+    padding-right: 6px !important;
+    border: none !important;
+    outline: none !important;
+ 	cursor:pointer !important;
+
+    border-radius: 4px !important;
+    width: 30px !important;
+    height: 15px !important;
+    position: relative !important;
+    top: 9px !important;
+    /*left: -15px !important;*/
+    transition-duration: 0.4s;
+
+    position: absolute !important;
+    left: 718px !important;
+    top: 20px !important;
+}
+
+#recipease-minimize:hover {
+    background: #caf0ff;
+    transition-duration: 0.4s;
+}
+
+#recipease-delete, #recipease-delete:focus {
+    display: none;
+    font-family: Nunito !important;
+    padding: 0 !important;
+    text-transform: uppercase !important;
+    background: #7db4ff;
+    border: none !important;
+    outline: none !important;
+    cursor:pointer !important;
+    color: #70a1e2 !important;
+    border-radius: 4px !important;
+
+    height: 20px !important;
+    width: 20px !important;
+    position: relative !important;
+    top: -32px !important;
+
+    position: absolute !important;
+    top: 18px !important;
+    left: 685px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    /*transition-duration: 0.4s;*/
+    }
+
+#recipease-delete:hover {
+    background: #f95959;;
+    transition-duration: 0.2s;
+}
+
+.absolute{
+	position: absolute !important;
+}
+
+br {
+	line-height: 30px;
+}
+
+#iconImage {
+	width: 25px !important;
+    position: relative;
+    left: -2px;
+    top: 1px;
+}
+
+#saveRecipe, #saveRecipe:focus {
+	outline: none;
+	border: 2px solid #7cb4ff !important;
+    background-color: #caf0ff !important;
+    border-radius: 4px !important;
+    height: 26px !important;
+    width: 50px !important;
+    color: #7cb4ff !important;
+    display: none;
+    float: right;
+    position: relative;
+    left: -635px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 14px !important;
+    font-family: Nunito !important;
+    padding: 1px 7px 2px 7px;
+
+    position: absolute;
+    left: 60px !important;
+    top: 14px !important;
+
+    transition: background 200ms ease-in 0s,border 200ms ease-in 0s,color 200ms ease-in 0s;
+}
+
+#saveRecipe:hover {
+    transition: background 200ms ease-in 0s,border 200ms ease-in 0s,color 200ms ease-in 0s;
+    color: #8ddfff !important;
+}
+
+
+
+
+
+
+.recipease-all {
+	min-width: 38px;
+	background-color: #caf0ff !important;
+	border-radius: 30px;
+    /*height: 50px !important;*/
+    /*width: 50px !important;*/
+}
+
+#mydiv {
+    position: fixed;
+    z-index: 99999999999999999;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+#mydivheader {
+    padding: 12px;
+    cursor: move;
+    background-color: #8ddeff;
+    color: #fff;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px !important;
+    box-sizing: content-box !important;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    /*padding-bottom: 100px;*/
+}
+
+.rounded-quick {
+    border-bottom-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;    
+    transition-duration: 0.2s;
+}
+
+.rounded {
+    border-bottom-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+    /*transition-property: transform;*/
+    transition-delay: 0.4s;
+    transition-duration: 0.1s;
+}
+
+#mealClip {
+    display: none;
+    font-family: Nunito !important;
+    color: #7cb4ff !important;
+    width: 50px !important;
+    margin: auto !important;
+    text-align: center !important;
+    font-size: 23px !important;
+    position: absolute !important;
+    padding: 0px !important;
+    letter-spacing: 1px !important;
+    /*top: -1px !important;*/
+    /*width: 100% !important;*/
+    left: 0px;
+    line-height: inherit !important;
+    width: 100px !important;
+    margin: auto !important;
+    left: 330px;
+    -webkit-margin-before: 0em !important;
+    top: 7px !important;
+    line-height: 2em !important;
+    font-weight: 600 !important;
+}
